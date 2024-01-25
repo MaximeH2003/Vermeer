@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vermeer Exposition Maxime HENRIST</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="CSS/index.css" rel="stylesheet">
+    <link href="CSS/color.css" rel="stylesheet">
+    <link href="CSS/styles.css" rel="stylesheet">
+    <link href="CSS/responsive.css" rel="stylesheet">
+    <link href="CSS/random.css" rel="stylesheet">
+    <link href="CSS/information.css" rel="stylesheet">
+    
+</head>
+<body style="font-family: Arial, sans-serif;">
+    
+    <div class="ContainerPage">
+        
+        <!-- Cookie Banner -->
+        <div id="cookie-banner">
+            <div id="cookie-content">
+<!-- SERT à afficher du contenu HTML depuis le js grâce à la fonction "keepCookieBar" afin d'être sûr que l'utilisateur refuse dans ce cas on laisse mais on diminue la taille -->
+                <div id="cookie-paragraph1">Voici ci notre politique d'utilisation des cookies :<br>
+                    <p id="cookie-paragraph2">
+                        Ce site web utilise des cookies pour améliorer l'expérience de navigation de ses utilisateurs.<br>
+                        Les cookies sont de petits fichiers texte stockés sur votre appareil qui nous aident à comprendre comment vous interagissez avec notre site.<br>
+                        Ils sont utilisés à diverses fins, telles que l'analyse du trafic, la personnalisation du contenu, et la publicité ciblée.
+                    </p>
+                    <p id="cookie-paragraph3">
+                        En utilisant notre site, vous consentez à l'utilisation de cookies conformément à cette politique.<br>
+                        Si vous n'acceptez pas l'utilisation de cookies, vous pouvez désactiver les cookies dans les paramètres de votre navigateur.<br>
+                        <!-- Veuillez noter que la désactivation des cookies peut affecter certaines fonctionnalités de notre site. -->
+                    </p>
+                </div>
+                <!-- <button class="btn-refuser" id="cookieButton" onclick="keepCookieBar()">Refuser les cookie</button> -->
+                <button class="btn-refuser" id="cookieButton" onclick="keepCookieBar()">Refuser les cookie</button>
+                <button class="btn-accepter" id="cookieButton" onclick="hideCookieBar()">Accepter les cookie</button>
+
+            </div>
+        </div>
+        
+        <header>
+            <div id="navbar">
+                <a href="#biographie">Vermeer</a>
+                <a href="#oeuvres-vermeer">Quelques oeuvres</a>
+                <a href="#critique">Critique</a>
+                <a href="#informations">Informations</a>
+            </div>
+        </header>
+        <h1 id="project">Ce site à été fait par Maxime HENRIST, et a été fait pour le projet de BTS SIO de 1ère année</h1>
+        <div id="container">
+            <!-- <section id="title">
+                <div id="navBarPop" class="hidden">
+                    <section id="title">
+                        <div>
+                            <h1>Bienvenue sur le site de la nouvelle exposition de Vermeer</h1>
+                        </div>
+                    </section>
+                    <button id="toggleNavBar" onclick="toggleNavBar()">Cacher l'annonce</button>
+                </div>
+            </section> -->
+            
+            <!-- </section> -->
+
+            <!-- POP UP  -->
+            <!-- <button id="toggleNavBar" onclick="toggleNavBar()">Afficher détails</button> -->
+
+            <section id="images">
+                <div>
+                    <div id="biographie">
+                        <h2 >Biographie de Vermeer</h2>
+                        <p>Johannes Vermeer, né en 1632 à Delft, aux Pays-Bas, était un peintre de l'Âge d'or néerlandais.<br>
+                            Il est surtout connu pour ses œuvres emblématiques du XVIIe siècle, caractérisées par leur luminosité, leur réalisme et leur attention méticuleuse aux détails.<br>
+                            Vermeer a passé la majeure partie de sa vie à Delft, où il a également exercé la profession de marchand d'art.<br>
+                            Bien que Vermeer n'ait produit qu'un nombre relativement restreint de tableaux, environ 34 sont attribués avec certitude, ses œuvres sont considérées comme des chefs-d'œuvre.<br>
+                            Il était un maître de la lumière et des jeux d'ombre, capturant des scènes de la vie quotidienne avec une délicatesse remarquable.<br>
+                            Parmi ses œuvres les plus célèbres figurent "La Jeune Fille à la perle", "La Laitière" et "La Vue de Delft".<br>
+                            Vermeer est décédé en 1675 à l'âge de 43 ans, laissant derrière lui un héritage artistique durable.</p>
+                    </div>
+                    <table>
+                        <h2>Voici 18 oeuvres de Vermeer</h2>
+                        <tr>
+                            <td><img src="IMAGES/1.png" alt="Image 1">
+                            <p>
+                                Jeune femme à l'aiguière, parfois appelé aussi Femme à l'aiguière est un tableau de Johannes Vermeer peint vers 1662-1665, et exposé au Metropolitan Museum of Art de New York
+                            </p></td>
+                            <td><img src="IMAGES/2.jpg" alt="Image 2">
+                            <p>
+                                Le Christ dans la maison de Marthe et Marie est l'un des premiers tableaux de Johannes Vermeer peint vers 1655, exposé à la National Gallery of Scotland d'Édimbourg.
+                            </p></td>
+                            <td><img src="IMAGES/3.jpg" alt="Image 3"><p>
+                                L’Entremetteuse est une huile sur toile de Johannes Vermeer. Signée en bas à droite du cadre et datée de 1656, elle mesure 143 cm de haut et 130 cm de large. Elle est conservée à la Gemäldegalerie Alte Meister de Dresde.
+                            </p></td>
+                        </tr><tr>
+                            <td><img src="IMAGES/4.jpg" alt="Image 4">
+                            <p>
+                                Une jeune fille assoupie est un tableau de Johannes Vermeer peint vers 1657, exposé au Metropolitan Museum of Art de New York.
+                            </p></td>
+                            <td><img src="IMAGES/5.jpg" alt="Image 5"><p>
+                                Le Soldat et jeune fille riant, appelé aussi l'Officier et la jeune fille riant est une huile sur toile de Johannes Vermeer peinte vers 1657. Mesurant 50,5 cm de haut et 46 cm de large, le tableau est actuellement exposé à la Frick Collection de New York.
+                            </p></td>
+                            <td><img src="IMAGES/6.jpg" alt="Image 6"><p>
+                                La Liseuse à la fenêtre est un tableau de Johannes Vermeer. Peint vers 1657, il est signé sur le mur, entre la robe de la jeune femme et le rideau « JMeer ». Il est actuellement exposé à la Gemäldegalerie Alte Meister de Dresde.
+                            </p></td>
+                        </tr><tr>
+                            <td><img src="IMAGES/7.jpg" alt="Image 7"><p>
+                                La Jeune Fille au verre de vin est un tableau de Johannes Vermeer peint entre 1659 et 1660, exposé au Herzog Anton Ulrich-Museum de Brunswick en Basse-Saxe, une huile sur toile de 78 × 67 cm.
+                            </p></td>
+                            <td><img src="IMAGES/8.jpg" alt="Image 8"><p>
+                                La Laitière est une peinture à l'huile sur toile de 45,5 × 41 cm, réalisée vers 1658 par Johannes Vermeer, dit « Vermeer de Delft », et exposée depuis 1908 au Rijksmuseum d'Amsterdam
+                            </p></td>
+                            <td><img src="IMAGES/9.jpg" alt="Image 9"><p>
+                                La Ruelle est une peinture à l'huile sur toile de Johannes Vermeer de 54,3 × 44 cm, peinte vers 1658, et exposée au Rijksmuseum d'Amsterdam.
+                            </p></td>
+                        </tr><tr>
+                            <td><img src="IMAGES/10.jpg" alt="Image 10"><p>
+                                La Leçon de musique est un tableau de Johannes Vermeer peint vers 1662-1665. Il est conservé dans la Royal Collection et peut être exposé au Palais de Buckingham ou au Palais St. James de Londres.
+                            </p></td>
+                            <td><img src="IMAGES/11.jpg" alt="Image 11"><p>
+                                Le Concert est un tableau de Johannes Vermeer, peint entre 1663 et 1666. Il était exposé au musée Isabella-Stewart-Gardner de Boston, avant d'être volé en 1990. C'est peut-être l'une des œuvres volées les plus chères, son estimation est d'environ 250 000 000 $.
+                            </p></td>
+                            <td><img src="IMAGES/12.jpg" alt="Image 12"><p>
+                                Une femme buvant avec deux hommes est une peinture de 1658 de Pieter de Hooch, un exemple de la peinture hollandaise de l'âge d'or et fait partie de la collection de la National Gallery de Londres. La peinture a été documentée par Hofstede de Groot en 1908.
+                            </p></td>
+                        </tr><tr>
+                            <td><img src="IMAGES/13.jpg" alt="Image 13"><p>
+                                La Femme au luth est un tableau de Johannes Vermeer peint vers 1662-1663, et exposé au Metropolitan Museum of Art de New York.
+                            </p></td>
+                            <td><img src="IMAGES/14.jpg" alt="Image 14"><p>
+                                La Femme en bleu lisant une lettre est un tableau de Johannes Vermeer réalisé vers 1662-1665. Cette huile sur toile de 46,5 cm par 39 cm est aujourd'hui conservée au Rijksmuseum, à Amsterdam.
+                            </p></td>
+                            <td><img src="IMAGES/15.jpg" alt="Image 15"><p>
+                                La Femme à la balance, autrefois également La Peseuse de perles, ou encore La Peseuse d'or, est une huile sur toile du peintre néerlandais du Siècle d'or Johannes Vermeer, exécutée entre 1662 et 1665, et actuellement conservée à la National Gallery of Art de Washington DC.
+                            </p></td>
+                        </tr><tr>
+                            <td><img src="IMAGES/16.jpg" alt="Image 16"><p>
+                                La Dame au collier de perles est un tableau de Johannes Vermeer peint en 1664, exposé au Staatliche Museen Preussischer Kulturbesitz, dans la Gemäldegalerie de Berlin.
+                            </p></td>
+                            <td><img src="IMAGES/17.jpg" alt="Image 17"><p>
+                                Jeune femme écrivant une lettre est un tableau de Johannes Vermeer peint vers 1665 et exposé à la National Gallery of Art de Washington.
+                            </p></td>
+                            <td><img src="IMAGES/18.jpg" alt="Image 18"><p>
+                                La Jeune Fille à la perle est une peinture à l'huile sur toile réalisée par le peintre néerlandais Johannes Vermeer vers 1665. Ce tableau de moyenne dimension est un portrait en buste d'une jeune femme anonyme — peut-être l'une des filles de Vermeer — portant une perle à l'oreille ainsi qu'un turban sur la tête.
+                            </p></td>
+                        </tr>  
+                    </table>
+                    <section id="oeuvres-vermeer">
+                        <h2>Collection d'Oeuvres de Vermeer</h2>
+                        <div id="imageContainer">
+                        </div>
+                        <!-- Bouton pour changer les oeuvres affichés aléatoirement -->
+                        <button id="changer-images">Changer les oeuvres</button>
+                    </section>
+                </div>
+            </section>
+
+            <section id="critique">
+                <div id="row-video">
+                    <h2>Voici les vidéos à mentionner :</h2>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0QQQqHsqUtk?si=KKWGLzf_68TBY3eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/FHEwVxCbslI?si=zcw01GmmtQUSnaJN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                    <iframe src="https://www.youtube.com/embed/bncM8kOCOLs?si=gCSgsfUlljhNDGkk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div id="critiqueVideo">
+
+                    <h2>Critique sur la vidéo : "Le Monde dans un tableau Le chapeau de Vermeer"</h2>
+                    <p>
+                        <li>Introduction :</li><br>
+                        À l'époque de Vermeer, les Pays-Bas étaient un centre commercial et maritime crucial, favorisant les échanges avec l'Europe, l'Asie et les Amériques.<br>
+                        Les Néerlandais ont également été des pionniers en matière d'économie, étant à l'origine de la création des actions,
+                        des marchés boursiers et des banques centrales.<br>
+                        Cette croissance économique a eu un impact significatif sur la vie culturelle et artistique, inspirant notamment Vermeer dans certains de ses tableaux
+                        notamment dans "Le soldat et la jeune fille riant".<br>
+                        Johannes Vermeer a réalisé cette peinture vers 1657, période où il se consacrait à des scènes de la vie quotidienne,
+                        mettant l'accent sur les détails et la lumière.<br><br>
+                        <li>Les détails visuels :</li><br>
+                        L'officier, vêtu d'un uniforme militaire et arborant un chapeau en peau de castor, est assis à côté d'une jeune femme habillée d'une robe jaune.<br>
+                        La lumière naturelle entre par une fenêtre à gauche, créant des jeux d'ombres et de lumières sur les visages et les vêtements des personnages.<br>
+                        Le choix du chapeau en peau de castor dans "Le Soldat et la jeune fille riant" de Vermeer est une référence à l'exploitation et à l'extermination des castors à l'époque.<br><br>
+                        <li>Les détails du chapeau :</li><br>
+                        Les chapeaux en peau de castor étaient très prisés pour leur durabilité, leur imperméabilité et leur élégance.<br>
+                        Ils étaient souvent associés à des personnes de classe sociale élevée ou à des professions spécifiques.<br>
+                        La mise en avant du chapeau par Vermeer vise à dénoncer le commerce excessif et l'extermination des castors pendant cette période.<br><br>
+                        <li>Le massacre des castors :</li><br>
+                        Les castors étaient de plus en plus rares à force d'être traqués, poussant les Européens à les chercher en Amérique du Nord.<br>
+                        Cela a entraîné un massacre massif des castors en raison de la forte demande de leurs peaux pour la confection de chapeaux.<br>
+                        Cependant, une civilisation autochtone, les Wendats, a tenté de les protéger, déclenchant ainsi une guerre contre les colons.<br><br>
+                        <li>Les Wendats</li><br>
+                        Le massacre des Wendats, également connu sous le nom de guerre des castors, a eu lieu en 1649 dans la région des Grands Lacs en Amérique du Nord.<br>
+                        Les Wendats, une nation amérindienne, étaient réputés pour leur expertise dans le commerce des fourrures,<br>
+                        en particulier la peau de castor, une ressource précieuse à l'époque pour la fabrication de chapeaux et de vêtements.<br>
+                        Ce massacre a eu des conséquences dévastatrices pour les Wendats, entraînant la dispersion de leur peuple et une extermination massive des castors.<br><br>
+                        <li>Conclusion</li><br>
+                        En conclusion, avec des œuvres telles que "L'officier et la jeune fille riant", Vermeer a illustré la vie quotidienne de la société néerlandaise pendant une période de prospérité économique.<br>
+                        Parallèlement, les Pays-Bas étaient au cœur d'une expansion commerciale majeure
+                        avec des entreprises commerciales et un réseau mondial d'échanges.<br>
+                        Cela a marqué le début de la mondialisation du commerce, ayant un impact sur l'art et l'économie.<br><br>
+                    </p>
+                </div>
+            </section>
+            <section id="informations">
+                <div class="exhibition-info">
+                    <h2>Informations sur l'exposition</h2>
+                    <p class="pricing-info">
+                        <strong>Tous publics : </strong>Plein tarif 9,00 €.<br>
+                        <strong>Pour plus d'informations : </strong><br>
+                        <strong>Téléphone : </strong>04 50 83 15 90<br>
+                        <strong>Horaires : </strong>De 9h à 18h.<br>
+                        <strong>Dates : </strong>Du 2 Janvier au 2 Février 2024<br>
+                        <strong>Contact pour réservation :</strong> 04 50 83 10 19 / courrier@ville-evian.fr<br>
+                        <strong><a class="tarifInfo" href="https://ville-evian.fr/palais-lumiere/">Tarifs</a></strong>
+                        <!-- <strong>Visites commentées tous les jours à 14h30 pour les individuels :</strong> 4 € en plus du ticket d'entrée.<br>
+                        <strong>Visites thématiques :</strong> 4 € en supplément du ticket d'entrée.<br>
+                        <strong>Jeunes / Familles :</strong> Gratuit pour les moins de 16 ans.<br>
+                        <strong>Tarif réduit :</strong> Étudiants, familles nombreuses, membres du club « Petit Léonard » : 7,00 €.<br> -->
+                        <!-- Parcours découverte tous les mercredis à 16h pour les enfants (-10 ans) accompagnés de leurs parents : 7,00 € (adulte).<br>
+                        « Petit jeu du Palais Lumière » (6-12 ans) : livret ludique disponible à l’accueil.<br>
+                        Ateliers pédagogiques :<br>
+                        5 € : enfant-adolescent / atelier et en famille.<br>
+                        8,00 € : adulte (voir détail dans « en regard de l’exposition »).<br>
+                        <strong>Groupes :</strong> Tarif réduit de 7,00 € pour les groupes d’au moins 10 personnes.<br>
+                        <strong>Visites commentées sur réservation :</strong> 55,00 € / groupe de 10 à 30 personnes, en plus du ticket d’entrée.<br>
+                        <strong>Scolaires / Enseignants :</strong> Gratuit pour les groupes scolaires.<br>
+                        <strong>Visites commentées sur réservation :</strong> 55,00 € / groupe de 10 à 30 élèves.<br> -->
+                    </p>
+                    <h2 id="link">Voici un lien de l'emplacement de l'exposition :</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2751.393030088294!2d6.588982976195711!3d46.40126237110475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c235528095341%3A0x5173c5ef4f1398c0!2sPalais%20Lumi%C3%A8re%2C%2074500%20%C3%89vian-les-Bains!5e0!3m2!1sfr!2sfr!4v1702078236667!5m2!1sfr!2sfr"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>     
+        </div>    
+
+        <script src="js/cookie.js" async defer></script>
+        <script src="js/random.js" async defer></script>
+        <script>
+
+        </script>
+    
+    </div>
+</body>
+</html>

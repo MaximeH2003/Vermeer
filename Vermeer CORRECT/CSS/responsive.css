@@ -1,0 +1,84 @@
+                        /*      RESPONSIVE NAVBAR       */
+
+@media only screen and (max-width: 600px) {
+    div#gallery-container{
+        width: 200px;
+    }
+    #navbar {
+        height: 4em;
+        padding: 25px;
+        /* gap: 3px; */
+        border: solid 3px black;
+        border-radius: 15px;
+        background-color: #f6f6f6;
+    }
+    #navbar > a{
+        text-decoration: none;
+        color: black;
+    }
+    #navbar > a:hover{
+        color: rgb(255, 255, 255);
+        background-color: black;
+        padding: 3px;
+        border-radius: 5px;
+        font-size: x-large;
+    }
+    a:focus{
+        background-color: #4b4b4b;
+        border: black solid 2px;
+        color: #ffffff;
+    }
+}
+
+/* @keyframes gradient {
+    0% {
+        box-shadow: 0 0 100px rgb(255, 255, 255);
+    }
+    20% {
+        box-shadow: 0 0 100px rgb(151, 151, 151);
+    }
+    40% {
+        box-shadow: 0 0 100px rgb(94, 94, 94);
+    }
+    60% {
+        box-shadow: 0 0 100px rgb(114, 114, 114);
+    }
+    80% {
+        box-shadow: 0 0 100px rgb(255, 255, 255);
+    }
+    100% {
+        box-shadow: 0 0 100px rgb(158, 158, 158);
+    }
+} */
+
+@media only screen and (max-width: 600px) {
+/* Ajout de styles pour le responsive */
+/* 
+    div#exhibition-info > h2 {
+        text-align: center;
+    } */
+    p{
+        padding: 6px;
+    }
+
+    #navbar {
+        flex-direction: column;
+        padding: 35px;
+    }
+
+    #container {
+        padding: 0.5em;
+    }
+
+    section {
+        padding: 0.5em;
+    }
+
+    td {
+        display: block;
+        text-align: center;
+        margin-bottom: 1em;
+        padding-top: 16px;
+
+    }
+}

@@ -1,0 +1,112 @@
+body {
+    /* background-color: #336699; */
+    background-color: #275888;
+    color: whitesmoke;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+                /*                  TITLE                   */
+section#title {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+section#title > div > h1{
+    text-align: center;
+    padding: 20px;
+    border: solid white 3px;
+    border-radius: 10px;
+}
+                /*              SECTION CRITIQUE                */
+section#critique{
+    font-family: Arial, Helvetica, sans-serif !important;
+    background-color: rgb(121, 121, 121);
+    padding: 20px;
+    font-size: medium;
+}
+div.column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section#critique > div > iframe {
+    width: 42%;
+    height: 12em;
+}
+section#critique > div > h2 {
+    text-align: center;
+    text-decoration: none;
+    margin-top: 3%;
+}
+section#critique > div > li {
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+}
+                /*              STYLE NAVBAR              */
+#navbar {
+    height: 2em;
+    padding: 20px;
+    /* gap: 7px; */
+    border: solid 4px black;
+    border-radius: 15px;
+    background-color: #f6f6f6;
+}
+#navbar > a{
+    text-decoration: none;
+    color: black;
+}
+#navbar > a:hover{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: x-large;
+}
+a:visited{
+    background-color: #4b4b4b;
+    border: black solid 2px;
+    color: #000000;
+}
+
+                        /*              SECTION             */
+/* section#description,footer>div{
+    box-shadow: inset 5px 5px 15px #292929, inset -5px -5px 15px #c8c8c8;
+} */
+
+                    /*          LIEN STYLE          */
+
+footer > div {
+    display: inline-block;
+    justify-content: center;
+    border: solid 4px whitesmoke;
+}
+footer > div > a{
+    text-align: center;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+td{
+    color: black;
+    padding: 3%;
+    padding-left: 1%;
+    padding-right:1%;
+
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 3px, transparent 3px) 0% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 3px, transparent 3px) 100% 0%/8px 8px no-repeat,
+    radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 3px, transparent 3px) 0% 100%/8px 8px no-repeat,
+    radial-gradient(circle at 0 0, #ffffff 0, #ffffff 3px, transparent 3px) 100% 100%/8px 8px no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 10px) calc(100% - 16px) no-repeat,
+    linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 16px) calc(100% - 10px) no-repeat,
+    conic-gradient(#ffcb00 0%, rgba(255,158,0,1) 7%, #ffc507 16.67%, rgba(255, 187, 0, 1) 30%, rgba(255,165,0,1) 46%, rgba(255, 150, 0, 1) 58%, rgba(255,181,0,1) 74%, rgba(255,181,0,1) 88%, #ffdb00 100%);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+
+
